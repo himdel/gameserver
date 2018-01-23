@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "USER",
+    "password": "PASSWORD",
+    "host": "localhost",
+    "database": "game",
+    "schema": "public"
+  }
+}
