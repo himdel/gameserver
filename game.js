@@ -1,7 +1,12 @@
 const db = require('./db');
+const http = require('./http');
 
-db.games()
-  .then(console.log);
+http.app.get('/games', function(req, res) {
+  db.games()
+    .then((games) => {
+      res.json(games);
+    });
+});
 
 // db.games()
 // db.actions(game)

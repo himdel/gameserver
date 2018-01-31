@@ -8,13 +8,16 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "db-migrate": "~0.10.2",
-    "db-migrate-pg": "~0.2.5",
+    "db-migrate-pg": "~0.2.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
     "pg": "~7.4.1",
     "socket.io": "~2.0.4"
   },
   "engines": {
-    "node": ">= 8.9.0"
+    "node": ">= 8.0.0"
   }
 }
